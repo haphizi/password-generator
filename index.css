@@ -1,0 +1,77 @@
+
+body {
+  font-family: "Karla", sans-serif;
+  margin: 0;
+  background-color: #1f2937;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: #4adf86;
+}
+
+h1::first-line {
+  color: #ffffff;
+}
+
+p {
+  color: #d5d4d8;
+}
+
+.password-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: #10b981;
+  border-radius: 2px;
+  padding: 6px 0;
+  width: 150px;
+  border: none;
+}
+
+div.password-item {
+  background-color: #273549;
+  color: #55f991;
+  width: 170px;
+  height: 30px;
+  padding: 6px 0;
+  margin: 0 10px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line {
+  margin: 20px 0;
+  border-bottom: 2px solid #2f3e53;
+  border-radius: 2px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 5em; /* Decrease font size */
+  }
+
+  p {
+    font-size: 14px; /* Decrease font size */
+  }
+
+  button {
+    width: 200px; /* Decrease button width */
+  }
+
+  div.password-item {
+    width: 150px; /* Decrease width of password items */
+    margin: 0 5px; /* Decrease margin */
+    padding: 4px 0; /* Decrease padding */
+  }
+}
